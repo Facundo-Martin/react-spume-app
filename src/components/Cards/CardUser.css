@@ -1,0 +1,19 @@
+.cardUser {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.cardUser_image {
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgb(111, 131, 147);
+}
+
+.cardUser__info-name {
+  font-weight: 700;
+}
+
+.cardUser__info-user {
+  font-size: 0.8rem;
+  color: grey;
+}
