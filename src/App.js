@@ -1,7 +1,7 @@
 import "./App.css";
+import Content from "./components/Content";
 import Feed from "./components/Feed";
 import Header from "./components/Header";
-import Main from "./components/Main";
 import Sidebar from "./components/Sidebar";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 
       <div className="app__content">
         <Sidebar />
-        <Main />
+        <Content />
         <Feed />
       </div>
     </div>
