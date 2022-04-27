@@ -1,12 +1,14 @@
 import React from "react";
+import CardNFT from "./Cards/CardNFT";
 import "./Content.css";
 
 function Content() {
   return (
     <div className="content">
-      <h2>Content</h2>
       {/* NFT Collection */}
+      <CardNFT />
       {/* Trending Auctions title & link */}
+
       {/* Auction Cards */}
     </div>
   );

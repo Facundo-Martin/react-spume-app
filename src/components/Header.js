@@ -12,7 +12,7 @@ const user = {
   image: "https://i.postimg.cc/TPbFQmSP/Kenny-Lorem.jpg",
   // Tell Leo (or should I say Kenny) I'm sorry for hosting his profile image online
   name: "Kenny Lorem",
-  user: "kenny",
+  user: "@kenny",
 };
 
 function Header({ initialSelectedCard = menuItems[0] }) {

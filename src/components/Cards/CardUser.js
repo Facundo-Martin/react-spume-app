@@ -8,7 +8,7 @@ function CardUser({ image, name, user }) {
       <Avatar className="cardUser_image" src={image} />
       <div className="cardUser__info">
         <h4 className="cardUser__info-name">{name}</h4>
-        <p className="cardUser__info-user">@{user}</p>
+        <p className="cardUser__info-user">{user}</p>
       </div>
     </div>
   );
