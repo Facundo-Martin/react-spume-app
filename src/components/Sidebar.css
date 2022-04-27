@@ -1,10 +1,9 @@
 .sidebar {
-  flex: 0.05;
+  min-width: 100px;
   background-color: white;
-  padding: 1rem;
   box-shadow: 15px 0px 10px -15px rgb(178, 178, 178);
   border-radius: 15px;
-  height: 80vh;
+  height: 84vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -14,20 +13,9 @@
 .sidebar__nav {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 3rem 0;
   gap: 4rem;
-}
-
-.sidebar__nav-icon {
-  color: grey;
-}
-.sidebar__nav-icon .rotate {
-  text-transform: rotate(90deg);
-}
-
-.sidebar__nav-icon:hover {
-  cursor: pointer;
-  color: rgb(45, 98, 183);
 }
 
 .sidebar__settingsicon {

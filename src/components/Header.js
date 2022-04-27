@@ -18,7 +18,7 @@ const user = {
 function Header() {
   return (
     <div className="header">
-      <img className="header__logo " src="/logo.jpeg" alt="spume logo" />
+      <img className="header__logo " src="/logo.png" alt="spume logo" />
       <div className="header__input">
         <SearchIcon className="header__searchicon" />
         <input placeholder="Search" />

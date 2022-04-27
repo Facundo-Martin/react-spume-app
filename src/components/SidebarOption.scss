@@ -1,0 +1,36 @@
+.sidebaroption {
+  width: 100%;
+}
+.sidebaroption__icon {
+  position: relative;
+}
+.sidebaroption__icon::after {
+  content: " ";
+  position: absolute;
+  overflow: hidden;
+  top: -5px;
+  right: -2.45rem;
+  height: 35px;
+  width: 3px;
+  background-color: rgba(0, 128, 255, 0.9);
+  visibility: hidden;
+}
+
+.inactive {
+  color: grey;
+}
+.active {
+  color: rgba(0, 128, 255, 0.9);
+  &::after {
+    visibility: visible;
+  }
+}
+
+.sidebar__nav-icon .rotate {
+  text-transform: rotate(90deg);
+}
+
+.sidebaroption__icon:hover {
+  cursor: pointer;
+  color: rgba(0, 128, 255, 0.9);
+}
