@@ -1,9 +1,12 @@
 import React from "react";
 import "./CardNav.css";
 
-function CardNav({ title }) {
+function CardNav({ title, setSelected, isActive }) {
   return (
-    <div className="cardNav">
+    <div
+      className={`cardNav ${isActive ? "active-cardnav" : ""}`}
+      onClick={() => setSelected(title)}
+    >
       <p>{title}</p>
     </div>
   );

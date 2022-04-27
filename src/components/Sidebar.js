@@ -8,12 +8,13 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import SettingsIcon from "@mui/icons-material/Settings";
 import SidebarOption from "./SidebarOption";
 
-function Sidebar({ initialSelectedIcon = "Mail" }) {
+function Sidebar({ initialSelectedIcon = "Inbox" }) {
   const [selected, setSelected] = useState(initialSelectedIcon);
+  console.log("the current selected menu title is", selected);
   console.log(
     "Logs for sidebar toggle:",
-    "Home isActive is",
-    Boolean(selected === "Home"),
+    "Inbox isActive is",
+    Boolean(selected === "Inbox"),
     "Wallet isActive is",
     Boolean(selected === "Wallet"),
     "Flight isActive is",
@@ -24,9 +25,9 @@ function Sidebar({ initialSelectedIcon = "Mail" }) {
     <div className="sidebar">
       <div className="sidebar__nav">
         <SidebarOption
-          id="Mail"
+          id="Inbox"
           Icon={DraftsIcon}
-          isActive={Boolean(selected === "Mail")}
+          isActive={Boolean(selected === "Inbox")}
           setSelected={setSelected}
         />
         <SidebarOption

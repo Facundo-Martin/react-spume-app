@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import CardNav from "./Cards/CardNav";
 import CardUser from "./Cards/CardUser";
 
-const menuTitles = ["All items", "Art", "Sports", "Gaming", "Utility", "Cards"];
+const menuItems = ["All items", "Art", "Sports", "Gaming", "Utility", "Cards"];
 
 // This will obviously come from the user account
 const user = {
@@ -15,7 +15,10 @@ const user = {
   user: "kenny",
 };
 
-function Header() {
+function Header({ initialSelectedCard = menuItems[0] }) {
+  const [selected, setSelected] = useState(initialSelectedCard);
+  console.log("the current selected menu title is", selected);
+
   return (
     <div className="header">
       <img className="header__logo " src="/logo.png" alt="spume logo" />
@@ -24,8 +27,23 @@ function Header() {
         <input placeholder="Search" />
       </div>
       <div className="header__nav">
-        {menuTitles?.map((title, index) => (
-          <CardNav title={title} key={index} />
+        {/* <CardNav
+          title="All items"
+          setSelected={setSelected}
+          isActive={Boolean(setSelected === "All items")}
+        />
+        <CardNav
+          title="Art"
+          setSelected={setSelected}
+          isActive={Boolean(setSelected === "Art")}
+        /> */}
+        {menuItems?.map((item, index) => (
+          <CardNav
+            title={item}
+            key={index}
+            setSelected={setSelected}
+            isActive={Boolean(selected === item)}
+          />
         ))}
       </div>
       <div className="header__user">

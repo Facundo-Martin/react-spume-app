@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./SidebarOption.scss";
 
 function SidebarOption({ Icon, setSelected, id, isActive, className }) {
