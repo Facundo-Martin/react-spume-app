@@ -29,6 +29,9 @@
   align-self: flex-start;
   margin: 0 0.4rem;
 }
+.header__searchicon:hover {
+  cursor: pointer;
+}
 
 .header__input > input {
   border: none;
@@ -57,4 +60,7 @@
   border-radius: 50%;
   box-shadow: 0 0 3px rgb(117, 110, 110);
   color: grey;
+}
+.header__user-icon:hover {
+  cursor: pointer;
 }
