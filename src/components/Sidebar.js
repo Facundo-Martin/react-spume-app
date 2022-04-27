@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import "./Sidebar.css";
-import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import DraftsIcon from "@mui/icons-material/Drafts";
 import AccountBalanceWalletIcon from "@mui/icons-material/AccountBalanceWallet";
-import FlightIcon from "@mui/icons-material/Flight";
+import LocalAirportIcon from "@mui/icons-material/LocalAirport";
 import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import SettingsIcon from "@mui/icons-material/Settings";
 import SidebarOption from "./SidebarOption";
 
-function Sidebar({ initialSelectedIcon = "Home" }) {
+function Sidebar({ initialSelectedIcon = "Mail" }) {
   const [selected, setSelected] = useState(initialSelectedIcon);
   console.log(
     "Logs for sidebar toggle:",
@@ -24,9 +24,9 @@ function Sidebar({ initialSelectedIcon = "Home" }) {
     <div className="sidebar">
       <div className="sidebar__nav">
         <SidebarOption
-          id="Home"
-          Icon={MailOutlineIcon}
-          isActive={Boolean(selected === "Home")}
+          id="Mail"
+          Icon={DraftsIcon}
+          isActive={Boolean(selected === "Mail")}
           setSelected={setSelected}
         />
         <SidebarOption
@@ -36,8 +36,9 @@ function Sidebar({ initialSelectedIcon = "Home" }) {
           setSelected={setSelected}
         />
         <SidebarOption
+          className="rotate"
           id="Flight"
-          Icon={FlightIcon}
+          Icon={LocalAirportIcon}
           isActive={Boolean(selected === "Flight")}
           setSelected={setSelected}
         />

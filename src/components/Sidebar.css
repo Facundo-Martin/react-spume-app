@@ -21,3 +21,7 @@
 .sidebar__settingsicon {
   margin-bottom: 1rem;
 }
+
+.rotate {
+  transform: rotate(45deg);
+}

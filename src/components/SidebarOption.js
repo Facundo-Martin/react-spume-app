@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./SidebarOption.scss";
 
-function SidebarOption({ Icon, setSelected, id, isActive }) {
+function SidebarOption({ Icon, setSelected, id, isActive, className }) {
   return (
     <div
       className="sidebaroption"
@@ -12,7 +12,7 @@ function SidebarOption({ Icon, setSelected, id, isActive }) {
       <div
         className={`sidebaroption__icon ${isActive ? "active" : "inactive"}`}
       >
-        <Icon />
+        <Icon className={className ? className : ""} />
       </div>
     </div>
   );

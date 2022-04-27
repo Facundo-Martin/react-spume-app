@@ -13,7 +13,10 @@
   height: 35px;
   width: 3px;
   background-color: rgba(0, 128, 255, 0.9);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   visibility: hidden;
+  cursor: default;
 }
 
 .inactive {
