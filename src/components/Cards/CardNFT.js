@@ -5,7 +5,7 @@ import Button from "../UI/Button";
 
 // This will obviously come from the user account
 const dataNFT = {
-  image: "",
+  image: "https://i.postimg.cc/zBJ2cSqJ/NFTRobot.jpg",
   title: "Astronaut",
   price: "100 Player",
   releaseDate: "",
@@ -28,7 +28,7 @@ function CardNFT() {
   return (
     <div className="cardNFT">
       <div className="cardNFT__image">
-        <img src="/NFTRobot.jpeg" />
+        <img src={dataNFT.image} />
       </div>
       <div className="cardNFT__data">
         {/* <CardUser image={user.image} name={user.name} user={user.user} /> */}

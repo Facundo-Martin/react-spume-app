@@ -1,0 +1,10 @@
+.auctioncards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.cardauction__lastbid {
+  display: flex;
+  gap: 1rem;
+}

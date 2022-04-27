@@ -1,4 +1,8 @@
 .content {
-  flex: 1;
+  flex: 0.8;
+  height: 100vh;
   margin: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }

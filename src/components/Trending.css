@@ -1,0 +1,9 @@
+.trending {
+  display: flex;
+  justify-content: space-between;
+}
+.trending-link {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
