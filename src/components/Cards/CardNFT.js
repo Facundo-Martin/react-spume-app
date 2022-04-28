@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./CardNFT.css";
 import CardUser from "./CardUser";
 import Button from "../UI/Button";
@@ -9,6 +9,7 @@ import RewardsIcon from "../UI/NFTStatIcons/RewardsIcon";
 import AccessIcon from "../UI/NFTStatIcons/AccessIcon";
 import TicketIcon from "../UI/NFTStatIcons/TicketIcon";
 import CardNFTData from "./CardNFTData";
+import SaveItem from "../SaveItem";
 
 // This will obviously come from the user account
 const dataNFT = {
@@ -30,6 +31,7 @@ const dataNFT = {
 };
 
 function CardNFT() {
+  const [isActive, setIsActive] = useState(false);
   console.log({ dataNFT });
 
   return (
@@ -45,7 +47,7 @@ function CardNFT() {
             name={dataNFT.user.name}
             user={dataNFT.user.user}
           />
-          <h3>Add Icon with isActive</h3>
+          <SaveItem />
         </div>
         <div className="cardNFT__title">
           <h2>{dataNFT.title}</h2>

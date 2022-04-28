@@ -19,10 +19,10 @@
   cursor: default;
 }
 
-.inactive {
+.inactivesidebaricon {
   color: grey;
 }
-.active {
+.activesidebaricon {
   color: rgba(0, 128, 255, 0.9);
   &::after {
     visibility: visible;

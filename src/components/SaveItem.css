@@ -1,0 +1,20 @@
+.saveitem {
+  background-color: rgb(40, 40, 40);
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.saveitem:hover {
+  cursor: pointer;
+}
+
+.inactivesaveitem {
+  color: #fff;
+}
+.activesaveitem {
+  color: red;
+}

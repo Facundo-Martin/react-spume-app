@@ -10,7 +10,9 @@ function SidebarOption({ Icon, setSelected, id, isActive, className }) {
       }}
     >
       <div
-        className={`sidebaroption__icon ${isActive ? "active" : "inactive"}`}
+        className={`sidebaroption__icon ${
+          isActive ? "activesidebaricon" : "inactivesidebaricon"
+        }`}
       >
         <Icon className={className ? className : ""} />
       </div>
