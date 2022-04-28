@@ -1,0 +1,30 @@
+.cardNFTdata {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-left: 1.5rem;
+}
+
+.cardNFTdata__price-info {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin: 0.2rem 0;
+}
+
+.cardNFTdata__price p {
+  color: rgb(184, 184, 184, 0.5);
+  font-size: 0.8rem;
+}
+.cardNFTdata__price-info p {
+  color: #fff;
+}
+.cardNFTdata__counter p {
+  color: rgb(184, 184, 184, 0.5);
+  font-size: 0.8rem;
+}
+
+.cardNFTdata__counter__boxes {
+  display: flex;
+  gap: 0.6rem;
+}

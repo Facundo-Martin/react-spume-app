@@ -1,0 +1,10 @@
+.counterbox {
+  padding: 0.6rem 0.8rem;
+  border-radius: 10px;
+  background-color: rgb(184, 184, 184, 0.2);
+}
+
+.counterbox p {
+  color: rgba(16, 111, 207, 0.8);
+  font-weight: 700;
+}

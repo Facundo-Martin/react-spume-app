@@ -8,6 +8,7 @@ import NFTStat from "../UI/NFTStat";
 import RewardsIcon from "../UI/NFTStatIcons/RewardsIcon";
 import AccessIcon from "../UI/NFTStatIcons/AccessIcon";
 import TicketIcon from "../UI/NFTStatIcons/TicketIcon";
+import CardNFTData from "./CardNFTData";
 
 // This will obviously come from the user account
 const dataNFT = {
@@ -50,7 +51,7 @@ function CardNFT() {
           <h2>{dataNFT.title}</h2>
         </div>
         <div className="cardNFT__info">
-          <h3>card data</h3>
+          <CardNFTData />
         </div>
         <div className="cardNFT__stats">
           {/* Don't judge me for hardcoding the title!!*/}
