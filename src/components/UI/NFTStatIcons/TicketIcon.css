@@ -3,3 +3,6 @@
   border-radius: 10px;
   background-color: rgba(236, 175, 78, 0.2);
 }
+.ticketicon:hover {
+  cursor: pointer;
+}

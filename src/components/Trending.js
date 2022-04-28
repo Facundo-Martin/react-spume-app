@@ -7,11 +7,14 @@ function Trending() {
     <div>
       <div className="trending">
         <h2>Trending Auctions</h2>
-        <div className="trending-link">
-          <a href="https://spume.io">
+        <div>
+          <a className="trending-link" href="">
             <h4>View All </h4>
+
+            <ArrowForwardIosIcon
+              style={{ color: "rgb(2, 100, 198))", fontSize: 11 }}
+            />
           </a>
-          <ArrowForwardIosIcon fontSize="small" />
         </div>
       </div>
     </div>

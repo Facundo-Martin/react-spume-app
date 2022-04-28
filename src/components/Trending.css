@@ -5,5 +5,12 @@
 .trending-link {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: rgb(2, 100, 198);
 }
