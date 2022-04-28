@@ -1,0 +1,13 @@
+.button-large {
+  padding: 1rem 2rem;
+  color: #fff;
+  background-color: rgba(0, 128, 255, 0.9);
+  border-radius: 0.5rem;
+}
+.button-large:hover {
+  cursor: pointer;
+}
+
+.dark {
+  background-color: rgba(50, 50, 50, 0.7);
+}

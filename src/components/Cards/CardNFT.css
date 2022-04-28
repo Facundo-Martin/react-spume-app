@@ -1,7 +1,7 @@
 .cardNFT {
   width: 100%;
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
   padding: 2rem;
   background-color: black;
   color: #fff;
@@ -9,8 +9,8 @@
 }
 
 .cardNFT__image img {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border-radius: 1.5rem;
 }
 
@@ -26,6 +26,13 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+
+.cardNFT__stats {
+  display: flex;
+  column-gap: 3rem;
+  row-gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .cardNFT__buttons {

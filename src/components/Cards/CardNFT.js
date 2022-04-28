@@ -2,6 +2,12 @@ import React from "react";
 import "./CardNFT.css";
 import CardUser from "./CardUser";
 import Button from "../UI/Button";
+import NFTStat from "../UI/NFTStat";
+
+// I created custom icon components in UI/NFTStatsIcons and I will later pass them as props
+import RewardsIcon from "../UI/NFTStatIcons/RewardsIcon";
+import AccessIcon from "../UI/NFTStatIcons/AccessIcon";
+import TicketIcon from "../UI/NFTStatIcons/TicketIcon";
 
 // This will obviously come from the user account
 const dataNFT = {
@@ -10,7 +16,7 @@ const dataNFT = {
   price: "100 Player",
   releaseDate: "",
   stats: {
-    rewards: "$500 K",
+    rewards: "$500k",
     access: "PlayVerse Seed Round",
     ticket: "Thailand Travala Gateway",
   },
@@ -47,11 +53,28 @@ function CardNFT() {
           <h3>card data</h3>
         </div>
         <div className="cardNFT__stats">
-          <h3>card stats</h3>
+          {/* Don't judge me for hardcoding the title!!*/}
+          <NFTStat
+            Icon={RewardsIcon}
+            title="Rewards"
+            description={dataNFT.stats.rewards}
+          />
+
+          <NFTStat
+            Icon={AccessIcon}
+            title="Access"
+            description={dataNFT.stats.access}
+          />
+          <NFTStat
+            Icon={TicketIcon}
+            title="Ticket"
+            description={dataNFT.stats.ticket}
+          />
         </div>
         <div className="cardNFT__buttons">
-          <Button />
-          <Button />
+          {/* I am going to use my UI button components */}
+          <Button title="View Rewards" size="large" />
+          <Button title="View Collection" size="large" type="dark" />
         </div>
       </div>
     </div>

@@ -13,8 +13,8 @@ function CardAuction({ image, title, lastbid, creators }) {
       </div>
       <p>{creators}</p>
       <div className="cardauction__buttons">
-        <Button />
-        <Button />
+        <Button title="Place a bid" />
+        <Button title="History" />
       </div>
     </div>
   );
