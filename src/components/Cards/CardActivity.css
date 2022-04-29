@@ -1,0 +1,27 @@
+.cardactivity {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.8rem;
+  background-color: #fff;
+  box-shadow: 0 0 3px #ccc;
+}
+
+.cardactivity__image {
+  outline: solid 8px rgba(226, 226, 226, 0.6);
+}
+.cardactivity__image:hover {
+  outline: solid 8px rgba(30, 131, 232, 1);
+  cursor: pointer;
+}
+
+.cardactivity__info .crypto {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.cardactivity__info .amount {
+  font-size: 0.8rem;
+  color: rgba(0, 128, 255, 0.9);
+}

@@ -39,7 +39,7 @@ function CardNFT() {
       <div className="cardNFT__image">
         <img src={dataNFT.image} />
       </div>
-      <div className="cardNFT__data">
+      <div className="cardNFT__content">
         {/* <CardUser image={user.image} name={user.name} user={user.user} /> */}
         <div className="cardNFT__header">
           <CardUser

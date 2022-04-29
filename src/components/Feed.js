@@ -7,7 +7,7 @@ import Button from "./UI/Button";
 function Feed() {
   return (
     <div className="feed">
-      <h2>Feed</h2>
+      <h3>Recent Activity</h3>
       <ActivityCards />
       <Button title="Show more" size="large" />
       <Creators />

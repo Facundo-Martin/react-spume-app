@@ -5,8 +5,7 @@
 }
 
 .cardUser_image {
-  border-radius: 50%;
-  box-shadow: 0 0 12px rgb(111, 131, 147);
+  outline: solid 5px rgba(176, 176, 176, 0.2);
 }
 .cardUser_image:hover {
   cursor: pointer;
