@@ -1,19 +1,16 @@
 import React from "react";
+import ActivityCards from "./ActivityCards";
+import Creators from "./Creators";
 import "./Feed.css";
+import Button from "./UI/Button";
 
 function Feed() {
   return (
     <div className="feed">
       <h2>Feed</h2>
-
-      <h2>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate rem
-        autem repellat delectus ipsum nesciunt libero quam excepturi sed
-        veritatis?
-      </h2>
-      {/* Activity  title w activity card*/}
-      {/* Show more button */}
-      {/* Top creators w Creator component */}
+      <ActivityCards />
+      <Button title="Show more" size="large" />
+      <Creators />
     </div>
   );
 }
