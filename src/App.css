@@ -1,6 +1,7 @@
 .app {
   background-color: rgba(245, 245, 245, 0.6);
 }
+
 .app__content {
   display: flex;
   margin: 1rem 2rem;

@@ -6,11 +6,11 @@ import CardAuction from "./Cards/CardAuction";
 // I should probably not hardcode numbers into strings, do later
 const dataAuction = [
   {
-    image: "https://i.postimg.cc/CKpQjptn/Abstract-Art-187.jpg",
+    image: "https://i.postimg.cc/65PRVHLG/Abstract-Art187.jpg",
     title: "Abstract Art 187",
     lastbid: {
       eth: "1.47",
-      dollars: "4,347,86",
+      dollars: "$4,347,86",
     },
     creators: ["@derry", "@aoife"],
   },
@@ -19,16 +19,16 @@ const dataAuction = [
     title: "Abstract Art 187",
     lastbid: {
       eth: "1.47",
-      dollars: "4,347,86",
+      dollars: "$4,347,86",
     },
     creators: ["@derry", "@aoife"],
   },
   {
-    image: "https://i.postimg.cc/1tJ7hnzD/Abstract-Art-189.jpg",
+    image: "https://i.postimg.cc/FK5L876r/Abstract-Art189.jpg",
     title: "Abstract Art 187",
     lastbid: {
       eth: "1.47",
-      dollars: "4,347,86",
+      dollars: "$4,347,86",
     },
     creators: ["@derry", "@aoife"],
   },

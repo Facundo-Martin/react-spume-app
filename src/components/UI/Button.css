@@ -1,8 +1,9 @@
 .button-large {
-  padding: 1rem 2rem;
+  padding: 0.8rem 1.8rem;
   color: #fff;
   background-color: rgba(0, 128, 255, 0.9);
   border-radius: 0.5rem;
+  font-size: 0.9rem;
 }
 .button-large:hover {
   cursor: pointer;
@@ -10,7 +11,7 @@
 
 .button-small {
   font-size: 0.8rem;
-  padding: 0.7rem 1.1rem;
+  padding: 0.7rem 1.5rem;
   color: #fff;
   background-color: rgba(0, 128, 255, 0.9);
   border-radius: 0.5rem;

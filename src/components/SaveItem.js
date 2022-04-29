@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./SaveItem.css";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 
+// Ideally, this component would ACTAULLY save items to users bags/carts
 function SaveItem() {
   const [isActive, setIsActive] = useState(false);
 
