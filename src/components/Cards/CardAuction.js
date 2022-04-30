@@ -10,7 +10,9 @@ function CardAuction({ image, title, lastbid, creators }) {
     <div className="cardauction">
       <div className="cardauction__image">
         <img src={image} alt="" />
-        <SaveItem className="saveitem" />
+        <div className="saveitem">
+          <SaveItem type="small" />
+        </div>
       </div>
       <h3 className="cardauction__title">{title}</h3>
       <div className="cardauction__lastbid">

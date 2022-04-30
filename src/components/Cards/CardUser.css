@@ -4,10 +4,10 @@
   align-items: center;
 }
 
-.cardUser_image {
-  outline: solid 5px rgba(176, 176, 176, 0.2);
+.cardUser__image {
+  outline: solid 6px rgba(145, 145, 145, 0.2);
 }
-.cardUser_image:hover {
+.cardUser__image:hover {
   cursor: pointer;
 }
 

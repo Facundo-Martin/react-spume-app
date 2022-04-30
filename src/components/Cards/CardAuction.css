@@ -5,7 +5,7 @@
   background-color: #fff;
   padding: 1rem;
   border-radius: 20px;
-  box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 2px rgb(225, 223, 223);
 }
 
 .cardauction__image {
@@ -40,7 +40,7 @@
   align-items: center;
   gap: 0.5rem;
   font-size: 0.9rem;
-  color: grey;
+  color: rgb(150, 148, 148);
 }
 .cardauction__lastbid-right {
   font-size: 0.9rem;

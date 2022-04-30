@@ -1,5 +1,6 @@
-.saveitem {
-  background-color: rgb(40, 40, 40);
+.saveitem-normal {
+  background-color: rgb(26, 26, 26);
+  box-shadow: -0.5px -0.5px 3px rgb(170, 170, 170);
   height: 3rem;
   width: 3rem;
   border-radius: 50%;
@@ -8,13 +9,38 @@
   justify-content: center;
 }
 
-.saveitem:hover {
+.saveitem-normal:hover {
   cursor: pointer;
+}
+.saveitem-normal .normal:hover {
+  color: rgba(255, 0, 0, 0.8);
 }
 
 .inactivesaveitem {
   color: #fff;
 }
 .activesaveitem {
-  color: red;
+  color: rgba(255, 0, 0, 0.8);
+}
+
+.saveitem-small {
+  background-color: rgba(53, 52, 52, 0.6);
+  box-shadow: -0.5px -0.5px 3px rgb(170, 170, 170);
+  height: 2.2rem;
+  width: 2.2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.saveitem-small:hover {
+  cursor: pointer;
+}
+
+.saveitem-small .small {
+  font-size: 16px !important;
+}
+.saveitem-small .small:hover {
+  font-size: 16px !important;
+  color: rgba(255, 0, 0, 0.8);
 }

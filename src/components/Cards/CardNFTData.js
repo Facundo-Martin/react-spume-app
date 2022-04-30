@@ -1,7 +1,8 @@
 import React from "react";
 import "./CardNFTData.css";
-import FavoriteIcon from "@mui/icons-material/Favorite";
+
 import CounterBox from "../UI/CounterBox";
+import ETHCardIcon from "../UI/NFTStatIcons/ETHCardIcon";
 
 function CardNFTData() {
   return (
@@ -9,7 +10,7 @@ function CardNFTData() {
       <div className="cardNFTdata__price">
         <p>Price per NFT</p>
         <div className="cardNFTdata__price-info">
-          <FavoriteIcon style={{ fontSize: 15 }} />
+          <ETHCardIcon />
           <p>100 Player</p>
         </div>
       </div>

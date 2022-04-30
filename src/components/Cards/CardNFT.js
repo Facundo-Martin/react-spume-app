@@ -47,7 +47,7 @@ function CardNFT() {
             name={dataNFT.user.name}
             user={dataNFT.user.user}
           />
-          <SaveItem />
+          <SaveItem type="normal" />
         </div>
         <div className="cardNFT__title">
           <h2>{dataNFT.title}</h2>

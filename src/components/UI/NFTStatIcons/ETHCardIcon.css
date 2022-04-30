@@ -1,0 +1,14 @@
+.ethcardicon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 50%;
+  background-color: rgb(61, 127, 193);
+}
+
+.ethcardicon__icon {
+  font-size: 9px !important;
+  color: white;
+}

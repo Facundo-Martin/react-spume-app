@@ -1,4 +1,7 @@
 .button-large {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 0.8rem 1.8rem;
   color: #fff;
   background-color: rgba(0, 128, 255, 0.9);
@@ -10,6 +13,9 @@
 }
 
 .button-small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 0.8rem;
   padding: 0.7rem 1.5rem;
   color: #fff;

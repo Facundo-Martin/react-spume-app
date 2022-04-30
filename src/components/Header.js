@@ -17,26 +17,18 @@ const user = {
 
 function Header({ initialSelectedCard = menuItems[0] }) {
   const [selected, setSelected] = useState(initialSelectedCard);
+  // Checking selected state
   console.log("the current selected menu title is", selected);
 
   return (
     <div className="header">
       <img className="header__logo " src="/logo.png" alt="spume logo" />
+
       <div className="header__input">
         <SearchIcon className="header__searchicon" />
         <input placeholder="Search" />
       </div>
       <div className="header__nav">
-        {/* <CardNav
-          title="All items"
-          setSelected={setSelected}
-          isActive={Boolean(setSelected === "All items")}
-        />
-        <CardNav
-          title="Art"
-          setSelected={setSelected}
-          isActive={Boolean(setSelected === "Art")}
-        /> */}
         {menuItems?.map((item, index) => (
           <CardNav
             title={item}
@@ -48,7 +40,7 @@ function Header({ initialSelectedCard = menuItems[0] }) {
       </div>
       <div className="header__user">
         <div className="header__user-icon">
-          <NotificationsNoneIcon />
+          <NotificationsNoneIcon style={{ fontSize: 20 }} />
         </div>
         <CardUser image={user.image} name={user.name} user={user.user} />
       </div>
