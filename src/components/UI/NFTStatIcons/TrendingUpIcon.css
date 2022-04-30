@@ -1,0 +1,26 @@
+.trendingupicon__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: rgb(200, 200, 200, 0.2);
+  height: 2.3rem;
+  width: 3.5rem;
+  border-radius: 34px;
+}
+.trendingupicon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  background-color: white;
+  outline: solid 1px rgb(211, 205, 205, 0.4);
+  box-shadow: 0px 0px 3px rgb(222, 222, 222);
+  margin-right: 0.5rem;
+}
+
+.trendingupicon__icon {
+  font-size: 13px !important;
+  color: rgb(39, 192, 39);
+}

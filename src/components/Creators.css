@@ -1,0 +1,20 @@
+.creators {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 2px #ccc;
+  background-color: #fff;
+}
+.creators__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.creators__header-link {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
