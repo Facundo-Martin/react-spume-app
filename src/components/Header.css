@@ -67,3 +67,10 @@
 .header__user-icon:hover {
   cursor: pointer;
 }
+
+.header__dropdownmenu {
+  position: absolute;
+  top: 6.5rem;
+  right: 2rem;
+  width: 300px;
+}

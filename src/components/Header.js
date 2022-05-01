@@ -4,6 +4,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import CardNav from "./Cards/CardNav";
 import CardUser from "./Cards/CardUser";
+import DropdownMenu from "./DropdownMenu";
 
 const menuItems = ["All items", "Art", "Sports", "Gaming", "Utility", "Cards"];
 
@@ -16,6 +17,7 @@ const user = {
 };
 
 function Header({ initialSelectedCard = menuItems[0] }) {
+  const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState(initialSelectedCard);
   // Checking selected state
   console.log("the current selected menu title is", selected);
@@ -42,8 +44,15 @@ function Header({ initialSelectedCard = menuItems[0] }) {
         <div className="header__user-icon">
           <NotificationsNoneIcon style={{ fontSize: 20 }} />
         </div>
-        <CardUser image={user.image} name={user.name} user={user.user} />
+        <CardUser
+          image={user.image}
+          name={user.name}
+          user={user.user}
+          setOpen={setOpen}
+          open={open}
+        />
       </div>
+      <div className="header__dropdownmenu">{open && <DropdownMenu />}</div>
     </div>
   );
 }

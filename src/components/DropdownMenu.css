@@ -1,0 +1,11 @@
+.dropdownmenu {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 2px #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.dropdownmenu__item:hover {
+  cursor: pointer;
+  background-color: red;
+}

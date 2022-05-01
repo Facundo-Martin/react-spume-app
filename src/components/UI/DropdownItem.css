@@ -1,0 +1,22 @@
+.dropdownitem {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: white;
+  color: rgb(136, 126, 126);
+  font-weight: 300;
+}
+.dropdownitem:hover {
+  cursor: pointer;
+  background-color: rgb(221, 221, 221, 0.5);
+  color: rgb(102, 96, 96);
+}
+
+.dropdownitem__left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
