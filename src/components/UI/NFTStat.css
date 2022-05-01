@@ -7,8 +7,10 @@
 .NFTstat__info h5 {
   color: rgb(184, 184, 184, 0.5);
   font-size: 0.8rem;
+  font-weight: 400;
 }
 
 .NFTstat__info p {
   font-size: 0.9rem;
+  font-weight: 400;
 }

@@ -13,6 +13,7 @@
   width: 300px;
   height: 300px;
   border-radius: 1.5rem;
+  cursor: pointer;
 }
 
 .cardNFT__content {

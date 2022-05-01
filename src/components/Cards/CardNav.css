@@ -1,11 +1,14 @@
 .cardNav {
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 0.5rem 1.5rem;
   background-color: rgba(232, 232, 232, 0.4);
   color: rgb(114, 113, 113);
   border-radius: 10px;
   font-size: 0.9rem;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .cardNav p {

@@ -7,6 +7,7 @@
   background-color: rgba(0, 128, 255, 0.9);
   border-radius: 0.5rem;
   font-size: 0.9rem;
+  font-weight: 400;
 }
 .button-large:hover {
   cursor: pointer;
@@ -21,6 +22,7 @@
   color: #fff;
   background-color: rgba(0, 128, 255, 0.9);
   border-radius: 0.5rem;
+  font-weight: 400;
 }
 .button-small:hover {
   cursor: pointer;
