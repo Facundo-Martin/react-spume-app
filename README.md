@@ -1,4 +1,4 @@
-# Spume App Prototype <img align="left" alt="Spume" width="50px" src="https://i.postimg.cc/LXZ2nZ1r/Logo.png" style="padding-right:10px;" />
+# Spume Marketplace Prototype <img align="left" alt="Spume" width="50px" src="https://i.postimg.cc/LXZ2nZ1r/Logo.png" style="padding-right:10px;" />
 
 Check out the Spume Marketplace Prototype!
 
