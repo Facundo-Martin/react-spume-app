@@ -5,6 +5,7 @@
 }
 
 .cardNFTdata__price {
+  flex: 0 0 auto;
   padding: 1rem 1.5rem;
   border-radius: 15px;
   background-color: rgb(28, 28, 28, 0.4);
