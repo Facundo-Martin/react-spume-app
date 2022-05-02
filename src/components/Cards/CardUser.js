@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "./CardUser.css";
 import { Avatar } from "@material-ui/core";
-import DropdownMenu from "../DropdownMenu";
 
 function CardUser({ image, name, user, setOpen, open }) {
   return (

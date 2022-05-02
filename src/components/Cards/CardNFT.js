@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./CardNFT.css";
 import CardUser from "./CardUser";
 import Button from "../UI/Button";
@@ -31,13 +31,12 @@ const dataNFT = {
 };
 
 function CardNFT() {
-  const [isActive, setIsActive] = useState(false);
   console.log({ dataNFT });
 
   return (
     <div className="cardNFT">
       <div className="cardNFT__image">
-        <img src={dataNFT.image} />
+        <img src={dataNFT.image} alt="NFT" />
       </div>
       <div className="cardNFT__content">
         {/* <CardUser image={user.image} name={user.name} user={user.user} /> */}

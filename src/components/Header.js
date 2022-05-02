@@ -24,7 +24,11 @@ function Header({ initialSelectedCard = menuItems[0] }) {
 
   return (
     <div className="header">
-      <img className="header__logo " src="/logo.png" alt="spume logo" />
+      <img
+        className="header__logo "
+        src="https://i.postimg.cc/LXZ2nZ1r/Logo.png"
+        alt="spume logo"
+      />
 
       <div className="header__input">
         <SearchIcon className="header__searchicon" />
