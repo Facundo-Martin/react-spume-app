@@ -10,6 +10,7 @@ Live Demo [here!](https://spume-app-1ffc1.web.app/)
 ### Built with
 
 - [React](http://reactjs.org/)
+- [Material UI (icons)](https://mui.com/)
 - [Plain CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [BEM Methodology](https://http://getbem.com/)
 - Caffeine & Enthusiasm
