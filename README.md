@@ -5,7 +5,7 @@ Check out the Spume Marketplace Prototype!
 Live Demo [here!](https://spume-app-1ffc1.web.app/)
 <br />
 
-![preview img](/preview.jpg)
+![preview img](/preview.jpeg)
 
 ### Built with
 
